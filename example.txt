@@ -1,0 +1,3 @@
+docker run --rm -v H:\Projects\KaraokeRelated\JumanVocalRemover:/app my-spleeter spleeter separate -p spleeter:2stems -o /app/output -c mp3 /app/EzilipButtum.mp3
+
+docker build -t spleeter .
